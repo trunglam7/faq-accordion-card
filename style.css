@@ -87,7 +87,7 @@ h1{
     
 }
 
-.question-container p:first-of-type{
+.question{
     font-size: 1em;
     font-weight: 400;
     display: flex;
@@ -103,6 +103,8 @@ h1{
     margin-top: 20px;
 }
 
+
+
 .question-container{
     text-align: left;
     background-color: transparent;
@@ -114,11 +116,12 @@ h1{
     margin-top: 20px;
 }
 
-.question-container:hover > p:first-of-type{
+.question-container:hover > .question{
     color: var(--hover-color);
 }
 
-.question-container p:last-of-type{
+.answer{
+    display: block;
     line-height: 20px;
     margin-bottom: 20px;
     color: var(--info-color);
@@ -127,7 +130,7 @@ h1{
     font-size: 1em;
 }
 
-.question-container p:first-of-type span{
+.question span{
     margin-right: 15px;
 }
 
@@ -166,7 +169,7 @@ h1{
         padding: 20px;
     }
 
-    h2 span{
+    .question span{
         margin-right: 0;
     }
 
